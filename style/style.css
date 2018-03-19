@@ -1,0 +1,141 @@
+html{
+    text-align: center;
+
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    min-width:800px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:800px;
+    border: solid;
+    border-radius: 5px;
+}
+
+#tools{
+    background-color: burlywood;
+    width: 800px;
+    border-radius: 4px;
+    padding-top: 10px;
+}
+
+#tools button{
+    width: 40%;
+    height: 30px;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: saddlebrown;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    
+
+#content{
+    width: 800px;
+    background-color: antiquewhite;
+}
+
+.tasks p{
+    display: inline;
+} 
+
+
+
+form{
+    text-align: center;
+    font-size: 18px;
+}
+form p {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 40%;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#deleteButton, #editButton {
+    margin: auto;
+    background-color: lightyellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;    
+}
+
+#deleteButton:hover{
+    background-color: darkorange;
+}
+
+#editButton:hover{
+    background-color: darkolivegreen;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    word-wrap: break-word;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding-bottom: 4px;
+    padding-top: 4px;    
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: burlywood;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: saddlebrown;
+    color: white;
+}

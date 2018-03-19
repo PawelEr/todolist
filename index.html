@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+    
+<body id="body">
+    <div id="tools">
+        <div>
+            <h2>ToDo List with LocalStorage Saving</h2>
+        </div>
+        <form>
+            Enter title: <br>
+            <input type="text" name="name" maxlength="50" value="" id="title">
+            <br>
+            Enter category: <br>
+            <input type="text" name="category" maxlength="100" value="" id="category">
+            <br>
+            Select priority: <br>
+            <select name="priority" id="priority">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <button type="button" id="add">Add new item</button>
+        </form> 
+        
+    </div>
+    <div id="content">
+        <table id="head">
+            <tr>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Priority</th>
+                <th>Change</th>
+            </tr>
+        </table>
+        <table id="table">
+        </table>
+    </div>    
+    
+    
+<script src="script/script.js"></script>    
+</body>
+</html>
