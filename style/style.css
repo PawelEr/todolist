@@ -37,7 +37,6 @@ body {
 
 input[type=text], select {
     width: 90%;
-    padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -82,7 +81,6 @@ select{
     width: 40%;
     height: 30px;
     background-color: white;
-    padding: 5px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10px;
